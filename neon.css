@@ -1,0 +1,37 @@
+body{
+   background:black;
+}
+.container{
+    border:5px solid white;
+    box-shadow: inset 0 0 9px red, 0 0 9px red;
+    border-radius: 60%px;
+    max-width: 400%px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+.neon{
+    font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+    letter-spacing: 8px;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px #4eff00,0 0 15px #4eff00,0 0 30px #4eff00,0 0 50px #4eff00;
+    animation: parpadear 2.5s infinite backwards steps(2);
+}
+
+.neon2{
+    font-family:monospace;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px #4eff00,0 0 15px #4eff00,0 0 30px #4eff00,0 0 50px #4eff00;
+}
+
+
+@keyframes parpadear{
+    to{
+        color: #d9d9d9;
+        text-shadow: none;
+    }
+}
